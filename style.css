@@ -1,0 +1,40 @@
+@font-face {
+    font-family: Monaco; src: url("assets/Monaco.ttf");
+}
+@font-face {
+    font-family: Monaco; font-weight: bold; src: url("assets/Monaco-Bold.ttf");
+}
+
+html {
+    background-color:#f8cfb3;
+    font-family: Monaco, sans-serif;
+}
+
+.header img {
+    float: left;
+    width: 64px;
+    height: 64px;
+}
+
+.header h1 {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+body {
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: black;
+}
+
+a:hover {
+    color: palevioletred;
+}
